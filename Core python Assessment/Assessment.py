@@ -1,0 +1,1 @@
+# Write a program to demonstrate the student management system.

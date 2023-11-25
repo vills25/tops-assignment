@@ -1,5 +1,4 @@
 
-
 #include <iostream>
 #include <ctime>
 
@@ -122,7 +121,7 @@ void ATM::withdraw()
     cin >> amount;
     if (amount > 0)
     {
-        if (amount <= balance)
+        if (amount <= balance) 
         {
             balance -= amount;
             cout << "Withdrawal successful. Current Balance: $" << balance << endl;
