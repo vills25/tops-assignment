@@ -140,6 +140,7 @@ void ATM::withdraw()
 void ATM::exit()
 {
     cout << "Thank you for using the ATM !" << endl;
+    
     // Add any necessary cleanup or additional exit logic here.
 }
 

@@ -1,0 +1,29 @@
+/*
+----->> What are the disadvantages of CSS?
+
+Disadvantages of CSS
+The advantages of CSS are now known to us. Let us now comprehend the disadvantages of CSS that the developers need to keep in mind.
+
+1. Cross-Browser Issues
+One of the major disadvantages of CSS is its cross-browser problem. Before making the websites live, tests are conducted to check their 
+compatibility. Although everyone nowadays prefers the most popular browsers like Google Chrome, Microsoft Edge, or Safari etc., there might be a 
+few exceptions. If these tests are not performed, it might result in an unexpected performance on that particular browser.
+
+2. Learning Curve
+Although CSS is an easy language to learn, some of its syntax is quite complicated. There are also different levels of CSS like CSS1, CSS2, and CSS3.
+They are different from each other in a few aspects. This can create confusion among the learners. Also, as developers, one might have to switch 
+from one level to the other depending upon the requirements of the project.
+
+3. Complex Layouts
+If there is a complex layout, it might be difficult to create the same using CSS. There can be several intricacies that might arise due to the 
+position and responsiveness.
+
+4. Over Specificity
+Over Specificity is an issue in CSS where the selectors are defined as having a lot of levels. In the case of nested selectors or over-specified 
+selectors, the code is not quite readable and it is difficult to make changes.
+
+5. File Size
+If the web page and its styling are very large, it can hamper the performance of the website. A large sized file can degrade the loading time of the
+website.
+
+\*

@@ -5,3 +5,4 @@ n = int(input("Enter Number: "))
 sum = sum(range(n+1))
 
 print("Sum of the first", n, "Positive numbers is", sum)
+

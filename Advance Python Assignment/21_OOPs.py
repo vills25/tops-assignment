@@ -1,10 +1,12 @@
-/*
---------------------------------------------------------------------------------------------------------------------------------------------------
- Q_2 ----> object-oriented programming (OOP)
-
------> What is object-oriented programming?
-
-    Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects,
+# 21. What are oops concepts? Is multiple inheritance supported in Python ?
+   
+   # ---> Is multiple inheritance supported in python ?
+   #      Yes! Multiple inheritance supported in python.
+   
+   #--> OOPs Concepts
+   
+'''
+ Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects,
  rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.
 
     OOP focuses on the objects that developers want to manipulate rather than the logic required to manipulate them.
@@ -22,7 +24,7 @@
  can manipulate it. Each distinct logic sequence is known as a method. Objects can communicate with well-defined interfaces called messages.
 
 
------> What is the structure of object-oriented programming?
+-----> structure of object-oriented programming.
 
      The structure, or building blocks, of object-oriented programming include the following:-
 
@@ -39,7 +41,7 @@
  Class attributes belong to the class itself.
 
 
------> What are the main principles of OOP?
+-----> the main principles of OOP.
        Object-oriented programming is based on the following principles:
 
     (1)Encapsulation--- This principle states that all important information is contained inside an object and only select information is exposed.
@@ -59,17 +61,10 @@
  which extends the functionality of the parent class. Polymorphism allows different types of objects to pass through the same interface.
 
 
------> What are examples of object-oriented programming languages?
+-----> examples of object-oriented programming languages.
  While Simula is credited as being the first object-oriented programming language, many other programming languages are used with OOP today.
  But some programming languages pair with OOP better than others. For example, programming languages considered pure OOP languages treat
  everything as objects. Other programming languages are designed primarily for OOP, but with some procedural processes included.
-
- For example, popular pure OOP languages include:
-
-    Ruby
-    Scala
-    JADE
-    Emerald
 
  Programming languages designed primarily for OOP include:
 
@@ -77,15 +72,7 @@
     Python
     C++
 
- Other programming languages that pair with OOP include:
-
-    Visual Basic .NET
-    PHP
-    JavaScript
-
-
------> What are the benefits of OOP?
-       Benefits of OOP include:
+-----> benefits of OOP.
 
     (1)Modularity--- Encapsulation enables objects to be self-contained, making troubleshooting and collaborative development easier.
 
@@ -104,12 +91,6 @@
     (7)Flexibility--- Polymorphism enables a single function to adapt to the class it is placed in. Different objects can
                       also pass through the same interface.
 
-
------> Criticism of OOP
- The object-oriented programming model has been criticized by developers for multiple reasons. The largest concern is that OOP
- overemphasizes the data component of software development and does not focus enough on computation or algorithms. Additionally,
- OOP code may be more complicated to write and take longer to compile.
-
  Alternative methods to OOP include:
 
      (1)Functional programming--- This includes languages such as Erlang and Scala, which are used for telecommunications and fault
@@ -126,10 +107,4 @@
                                that express facts or rules about a problem domain. It focuses on tasks that can benefit from rule-based
                                logical queries.
 
-
------> Most advanced programming languages enable developers to combine models, because they can be used for different programming methods.
-For example, JavaScript can be used for OOP and functional programming.
-
---------------------------------------------------------------------------------------------------------------------------------------------------
-
-*/
+'''

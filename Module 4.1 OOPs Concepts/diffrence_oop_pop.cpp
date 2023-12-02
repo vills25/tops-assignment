@@ -6,10 +6,10 @@ Q_3-----> DIFFERENCE BETWEEN OOP AND POP
                   OOP	                           ||              POP
 ---------------------------------------------------------------------------------------------------------------------
    -->   Object oriented.                          ||  -->  Structure oriented.
-   -->  Program is divided into objects.	         ||  -->  Program is divided into functions.
+   -->   Program is divided into objects.	         ||  -->  Program is divided into functions.
    -->   Bottom-up approach.	                     ||  -->  Top-down approach.
    -->   Inheritance property is used.	         ||  -->  Inheritance is not allowed.
-   -->  It uses access specifier.	               ||  -->  It doesn’t use access specifier.
+   -->   It uses access specifier.	               ||  -->  It doesn’t use access specifier.
    -->   Encapsulation is used to hide the data.   ||  -->	No data hiding.
    -->   Concept of virtual function.	         ||  -->  No virtual function.
    -->   Object functions are linked through       ||  -->  Parts of program are linked through parameter passing.

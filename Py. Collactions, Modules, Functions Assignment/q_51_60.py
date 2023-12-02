@@ -1,4 +1,4 @@
-# # Q.51  How Many Basic Types Of Functions Are Available In Python? 
+# Q.51  How Many Basic Types Of Functions Are Available In Python? 
 
 # '''
 # There are three types of functions in Python:
@@ -13,35 +13,35 @@
 # Lambda functions are a type of anonymous function. They are smaller and simpler than user-defined functions and are often used for one-off tasks.
 
 # '''
-# ###############################################################################################################################################
+# ##############################################################################################################################################
 
-# # Q.52 How can you pick a random item from a list or tuple?
+# Q.52 How can you pick a random item from a list or tuple?
 
-# # import random
-# # items = ('vishal', "brijesh", "smit", "Sharma" )
-# # i = random.choice(items)
-# # print(i)
+# import random
+# items = ('vishal', "brijesh", "smit", "Sharma" )
+# i = random.choice(items)
+# print(i)
 
-# ###############################################################################################################################################
+# ##############################################################################################################################################
 
-# # Q.53 How can you pick a random item from a range.
+# Q.53 How can you pick a random item from a range.
 
-# # import random
-# # y=random.randrange(1,10)
-# # print(y)
+# import random
+# y=random.randrange(1,10)
+# print(y)
 
-# #############################################################################################################################################
+# ############################################################################################################################################
 
-# # Q.54  How will you set the starting value in generating random numbers?
+# Q.54  How will you set the starting value in generating random numbers?
 
 # import random
 
 # random.seed(10)
 # print(random.random())
 
-# #############################################################################################################################################
+# ############################################################################################################################################
 
-# # Q.55 How will you randomizes the items of a list in place?
+# Q.55 How will you randomizes the items of a list in place?
 
 # import random
 
@@ -51,51 +51,51 @@
 
 # print("Shuffled list:", list)
 
-# ############################################################################################################################################
+# ###########################################################################################################################################
   
-# # Q.56  Write a Python program to read a random line from a file. 
+# Q.56  Write a Python program to read a random line from a file. 
 
-# # import random
-# # lines = open('file.txt').read().splitlines()
-# # random_line =random.choice(lines)
-# # print(random_line)
-
-# ############################################################################################################################################
-
-# # Q.57  Write a Python program to convert degree to radian.
-
-# # import math
-
-# # degrees = (input('Enter Degree Number: '))
-# # radians = degrees * (math.pi / degrees)
-# # print("Radians:", radians)
+# import random
+# lines = open('file.txt').read().splitlines()
+# random_line =random.choice(lines)
+# print(random_line)
 
 # ###########################################################################################################################################
 
-# # Q.58 Write a Python program to calculate the area of a trapezoid.
+# Q.57  Write a Python program to convert degree to radian.
 
-# # a = float(input("Enter value for a branch: "))
-# # b = float(input("Enter value for b branch: "))
-# # h= float(input("Enter value for height: "))
+# import math
 
-# # A=(1/2)*(a+b)*h
+# degrees = (input('Enter Degree Number: '))
+# radians = degrees * (math.pi / degrees)
+# print("Radians:", radians)
 
-# # print(A)
+# ##########################################################################################################################################
 
-# ##########################################################################################################################################################
+# Q.58 Write a Python program to calculate the area of a trapezoid.
 
-# # Q.59 Write a Python program to calculate the area of a parallelogram.
+# a = float(input("Enter value for a branch: "))
+# b = float(input("Enter value for b branch: "))
+# h= float(input("Enter value for height: "))
 
-# # b = float(input("Enter value for base: "))
-# # h= float(input("Enter value for height: "))
+# A=(1/2)*(a+b)*h
 
-# # A = b*h
+# print(A)
 
-# # print(A)
+# #########################################################################################################################################################
 
-# ##########################################################################################################################################################
+# Q.59 Write a Python program to calculate the area of a parallelogram.
 
-# #Q. 60  Write a Python program to calculate surface area and volume and area of a cylinder.
+# b = float(input("Enter value for base: "))
+# h= float(input("Enter value for height: "))
+
+# A = b*h
+
+# print(A)
+
+# #########################################################################################################################################################
+
+# Q. 60  Write a Python program to calculate surface area and volume and area of a cylinder.
 # import math
 
 
@@ -109,9 +109,9 @@
 # print("The surface area of the cylinder is: ",surface_area)
 # print("The volume of the cylinder is: ",volume)
 
-# ##########################################################################################################################################################
+# #########################################################################################################################################################
 
-# # Q.61 Write a Python program to returns sum of all divisors of a number.
+# Q.61 Write a Python program to returns sum of all divisors of a number.
 
 # def sum_of_divisors(n):
 #     div_sum = 0
@@ -125,9 +125,9 @@
 # print(f"The sum of divisors of {number} is: {result}")
 
 
-# ###################################################################################################################3
+# ##################################################################################################################3
 
-# # Q.62 Write a Python program to find the maximum and minimum numbers from the specified decimal numbers.
+# Q.62 Write a Python program to find the maximum and minimum numbers from the specified decimal numbers.
 
 # decimal_numbers = list(map(float, input("Enter decimal numbers separated by spaces: ").split()))
 

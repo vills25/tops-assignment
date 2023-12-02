@@ -1,15 +1,11 @@
 # Write a Python function to insert a string in the middle of a string.
 
-test_str = input("Enter main string: ")
+def insert_middle(main_string, insert_string):
+    middle_index = len(main_string) // 2
+    result = main_string[:middle_index] + insert_string + " " + main_string[middle_index:]
+    return result
 
-print("The original string is : " + str(test_str))
-
-mid_str = input("Enter the string to be inserted: ")
-
-temp = test_str.split()
-mid_pos = len(temp) // 2
-
-res = ' '.join(temp[:mid_pos] + [mid_str] + temp[mid_pos:])
-
-print("Formulated String : " + str(res))
-  
+original_string =(input( "Enter a string: "))
+string_to_insert = (input("Enter a string which you want to insert in previous string: "))
+result = insert_middle(original_string, string_to_insert)
+print(result)

@@ -1,0 +1,22 @@
+/*
+----->> Name a few CSS style components.
+
+1. Typography: Defines the styling of text elements such as font family, size, weight, line height, and letter spacing.
+
+2. Box Model: Includes properties like padding, margin, border, and content size, controlling the layout and spacing of elements on a web page.
+
+3. Flexbox: A layout model that allows for flexible arrangement of elements within a container, enabling easy alignment and distribution of space among items in a row or column.
+
+4. CSS Grid: A powerful layout system that allows the creation of two-dimensional grids for complex web layouts, providing precise control over rows, columns, and their content placement.
+
+5. Backgrounds and Gradients: Properties used to set background colors, images, gradients, and other visual backgrounds behind elements.
+
+6. Animations and Transitions: CSS properties and keyframes used to create animations and transitions, allowing for movement, fades, and other dynamic effects without relying on JavaScript.
+
+7. Media Queries: Allows for responsive design by applying different styles based on the device's screen size, orientation, or other characteristics.
+
+8. Positioning: Properties like position, top, left, right, and bottom that control the positioning of elements on a web page, offering options like static, relative, absolute, fixed, and sticky positioning.
+
+9. Transforms and Transitions: CSS features that modify the appearance of elements by scaling, rotating, skewing, or translating them in 2D or 3D space, often used for interactive effects.
+
+10. Pseudo-classes and Pseudo-elements: Selectors that allow styling based on various states of elements (e.g., :hover, :focus, :first-child) or to target specific parts of an element (e.g., ::before, ::after) for styling purposes.
