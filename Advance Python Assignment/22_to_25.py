@@ -43,7 +43,7 @@ class Rectangle:
         self.width = width
 
     def area(self):
-        return self.length * self.width
+        return self.length * self.width  #l*w
 
 length = 5
 width = 10
