@@ -64,11 +64,11 @@
 
 # # Q.57  Write a Python program to convert degree to radian.
 
-# # import math
+# import math
 
-# # degrees = (input('Enter Degree Number: '))
-# # radians = degrees * (math.pi / degrees)
-# # print("Radians:", radians)
+# degrees = float(input('Enter Degree Number: '))
+# radians = degrees * (math.pi / 180) 
+# print("Radians:", radians)
 
 # ###########################################################################################################################################
 
