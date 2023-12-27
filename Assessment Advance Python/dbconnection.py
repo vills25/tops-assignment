@@ -55,7 +55,7 @@ def admin_login():
 
     cursor.execute("""
         SELECT * FROM users WHERE username = %s AND password = %s AND role = 'admin'
-    """, (username, password))
+  myvenv  """, (username, password))
   
     result = cursor.fetchone()
     return result    
