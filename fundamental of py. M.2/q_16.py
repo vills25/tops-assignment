@@ -14,4 +14,3 @@ for unique_ch in empty_list:
     letter_counter.setdefault(unique_ch, name.count(unique_ch))
     
 print(letter_counter)            
-
