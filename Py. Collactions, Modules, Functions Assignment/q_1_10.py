@@ -18,6 +18,13 @@ list_name = list() --Function
 # products.reverse()
 # print(products) 
 
+# list1 = [2, 33, 222, 14, 25]
+
+# list1.reverse()
+
+# print(list1)
+    
+
 ###################################################################################################################################################
 
 # Q.2 How will you remove last object from a list? Suppose list1 is [2, 33, 222, 14, and 25], what is list1 [-1]? 
@@ -27,11 +34,11 @@ list_name = list() --Function
   
   #EXAMPLE 
   
-            # list1 = [2, 33, 222, 14, 25]
+# list1 = [2, 33, 222, 14, 25]
 
-            # list1.pop()
+# list1.pop(2) # for removing the object on second index. output [2, 33, 14, 25]
 
-            # print(list1)
+# print(list1)
     
 ###################################################################################################################################################
 
@@ -116,7 +123,7 @@ The inequality operator (!=) checks if the lists are not equal.
 # Q.7 Write a Python program to remove duplicates from a list.  
 
 # duplicates = [2, 4, 10, 20, 5, 2, 20, 4]
-# print(list(set(duplicates)))
+# print(set(duplicates))
 
 ##################################################################################################################################################
 

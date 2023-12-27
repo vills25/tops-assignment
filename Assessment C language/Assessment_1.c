@@ -11,7 +11,7 @@ int main()
     printf("Enter Second Number");
     scanf("%i", &num2); // Getting the second value from user
 
-    printf("Choose Any Operator: +  | - | / | * \n");
+    printf("Choose Any Operator: +   -  /  * \n");
     scanf(" %c", &ope); // getting the operator for operation from user
 
     // Applying if-else condition to check conditions

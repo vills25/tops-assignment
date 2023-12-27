@@ -8,29 +8,29 @@
 ##################################################################################################################################################
 
 # 7. Write a Python program to read a file line by line store it into a variable.
-'''
- file = open('file_name.txt', 'r')
- str=""
- for i in range(0,100):
-    str=str + f.read(i)
 
-print(str)
+# file = open('file_name.txt', 'r')
+# str=""
+# for i in range(0,100):
+#     str=str + file.read(i)
+
+# print(str)
  
-'''
+
 ##################################################################################################################################################
 
 # 8. Write a python program to find the longest words.
-"""
-def longest_word(file_name):
 
-  with open(file_name.txt, 'r') as infile:
-      words = infile.read().split()
-      
-  max_len = len(max(words, key = len))
-  return [word for word in words if len(word) == max_len]
+file = open("output.txt", 'r')
+words = file.read().split()
+file.close()
 
-print(longest_word('file_name.txt'))     
-"""
+max_len = len(max(words, key=len))
+longest_words = [word for word in words if len(word) == max_len]
+
+print(longest_words)
+
+
 ##################################################################################################################################################
 
 # 9. Write a Python program to count the number of lines in a text file.
@@ -50,13 +50,18 @@ print("Total number of lines: ", lines)
 from collections import Counter
 
 def word_count(file_name):
-    open("file_name.txt")
+    file = open(file_name, 'r')
+    content = file.read()  
+    file.close()  
+    words = content.split()  
+    return Counter(words)  
 
-    return Counter(file_name.read().split())
-
-print("Number of words in the file: ", word_count("file_name.txt")) 
-
+file_name = "output.txt"
+word_counter = word_count(file_name)
+print("Number of words in the file:", sum(word_counter.values()))
 """
+
+
 ##################################################################################################################################################
 
 

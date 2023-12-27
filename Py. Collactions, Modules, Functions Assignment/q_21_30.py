@@ -9,6 +9,7 @@
 # Q.22 Write a Python program to check whether an element exists within a tuple.
 
 # tuple = (1,2,3,4,5,6,'v','i','s','h','a','l')
+
 # print("i" in tuple)
 # print(5 in tuple)
 # print(10 in tuple)
@@ -41,7 +42,7 @@
 
 ################################################################################################################################################
 
-# Q.26  Write a Python program to replace last value of tuples in a list
+# Q.26  Write a Python program to replace last value of tuples in a list.
 
 # tuplelist = (1,2,3,4,5,6,7,8,9,10)
 # tuplelist = list(tuplelist)
@@ -62,11 +63,11 @@
 
 # Q.28 Write a Python program to remove an empty tuple(s) from a list of tuples.
 
-# tuplelist = (35,45.87,True," ",[ ],(32,66),{1,2},{ })
+tuplelist = (35,45.87,True," ",[ ],(32,66),{1,2},{ })
 
-# tuplelist = [t for t in tuplelist if t]
+tuplelist = [t for t in tuplelist if t]
 
-# print(tuplelist)
+print(tuplelist)
 
 #################################################################################################################################################
 

@@ -1,5 +1,4 @@
 
-
 # Q.41 Write a Python program to print all unique values in a dictionary. 
 
 # dict = {
@@ -69,32 +68,15 @@ of data between different structures.
 #     {'item': 'item1', 'amount': 750}
 # ]
 
-# combined_data = {}
+# coombined_data = {}
 # for entry in data:
-#     item = entry['item']
-#     amount = entry['amount']
-#     if item in combined_data:
-#         combined_data[item] += amount
-#     else:
-#         combined_data[item] = amount
-
-# print(combined_data)
-
-data = [
-    {'item': 'item1', 'amount': 400},
-    {'item': 'item2', 'amount': 300},
-    {'item': 'item1', 'amount': 750}
-]
-
-coombined_data = {}
-for entry in data:
-       item = entry['item']
-       amount = entry['amount']
-       if item in coombined_data:
-              coombined_data[item] += amount
-       else:
-           coombined_data[item] = amount
-print(coombined_data)                  
+#        item = entry['item']
+#        amount = entry['amount']
+#        if item in coombined_data:
+#               coombined_data[item] += amount
+#        else:
+#            coombined_data[item] = amount
+# print(coombined_data)                  
 ###########################################################################################################################################
 
 # Q.46 Write a Python program to create a dictionary from a string.

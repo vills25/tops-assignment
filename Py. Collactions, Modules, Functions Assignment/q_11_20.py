@@ -8,7 +8,7 @@
 
 #################################################################################################################################################
 
-# Q.12   Write a Python program to convert a list of characters into a string.  
+# Q.12 Write a Python program to convert a list of characters into a string.  
 
 # s = ['V', 'I', 'S', 'H', 'A', 'L']
 # str1 = ''.join(s)

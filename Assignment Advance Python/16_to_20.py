@@ -21,6 +21,7 @@ Finally block will print data anyway.
 
 # 19. How Do You Handle Exceptions With Try/Except/Finally In Python? Explain with coding snippets.
 
+"""
 try:
     a=int(input("Enter Numvber1: "))
     b=int(input("Enter Numvber2: "))
@@ -33,6 +34,8 @@ except:
     print("Unknown Error")
 finally:
     print("I am part of finally and I will execute always.")
+    
+"""
 
 ##################################################################################################################################################
 

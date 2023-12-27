@@ -3,9 +3,7 @@
 strings = input("Enter string: ")
 substring = input("Enter Substring: ")
 
-occurrence_count = sum(string.count(substring) 
-                       
-for string in strings)
+occurrence_count = sum(string.count(substring) for string in strings.split())
 
 print(occurrence_count) 
  

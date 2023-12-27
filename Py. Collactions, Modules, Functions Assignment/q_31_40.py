@@ -27,7 +27,7 @@
 # Details = {
 
 #             'Vishal':{
-#                 'mobile':['9033478555'],
+#                 'mobile':'9033478555',
 #                 'email':'vishal@123456',
 #                 'batch':'Python backend'
 #                 }
@@ -54,9 +54,7 @@
 
 # given_key = 'banana'
 
-# key_exists = given_key in locals() or given_key in globals() or given_key in vars()
-
-# if key_exists:
+# if given_key in dict:
 #     print(f"The key '{given_key}' exists in the dictionary.")
 # else:
 #     print(f"The key '{given_key}' does not exist in the dictionary.")
@@ -142,7 +140,7 @@ In C#, you can use ContainsKey() to check if a key exists in a dictionary. This 
 
 # dictionary = dict(zip(keys, values))
 
-# print(dictionary)
+# print(dictionary) 
 
 #######################################################################################################################################
 

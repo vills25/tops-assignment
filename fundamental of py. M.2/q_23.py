@@ -9,3 +9,4 @@ original_string =(input( "Enter a string: "))
 string_to_insert = (input("Enter a string which you want to insert in previous string: "))
 result = insert_middle(original_string, string_to_insert)
 print(result)
+
