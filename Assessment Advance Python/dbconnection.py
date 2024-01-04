@@ -54,8 +54,8 @@ def admin_login():
     password = input("Enter admin password: ")
 
     cursor.execute("""
-        SELECT * FROM users WHERE username = %s AND password = %s AND role = 'admin'
-  myvenv  """, (username, password))
+    SELECT * FROM users WHERE username = %s AND password = %s AND role = 'admin'
+    """, (username, password))
   
     result = cursor.fetchone()
     return result    
@@ -92,6 +92,18 @@ def manager_register():
     db.commit()
     print("Manager registration successful.")
 
+# Function to validate manager login
+def manager_login():
+    username = input("Enter manager username: ")
+    password = input("Enter manager password: ")
+
+    cursor.execute("""
+        SELECT * FROM users WHERE username = %s AND password = %s AND role = 'manager'
+    """, (username, password))
+
+    result = cursor.fetchone()
+    return result
+
 # Function to add a new medicine to the inventory
 def add_medicine():
     name = input("Enter medicine name: ")
@@ -119,19 +131,6 @@ def delete_medicine():
         print("Medicine deleted successfully.")
     else:
         print("Deletion canceled.")
-
-
-# Function to validate manager login
-def manager_login():
-    username = input("Enter manager username: ")
-    password = input("Enter manager password: ")
-
-    cursor.execute("""
-        SELECT * FROM users WHERE username = %s AND password = %s AND role = 'manager'
-    """, (username, password))
-
-    result = cursor.fetchone()
-    return result
 
 # Admin menu handling various admin operations
 def admin_menu():
