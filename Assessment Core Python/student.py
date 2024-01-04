@@ -14,7 +14,7 @@ def student_menu():
             log_file(f"Student With Roll id {roll_id} spotted.")
         elif student_choice == '2':
             roll_id = input("Enter your roll id: ")
-            
+
             view_specific_student(students, roll_id)
         else:
           print("Invalid choice!")
