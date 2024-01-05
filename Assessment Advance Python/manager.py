@@ -42,7 +42,7 @@ def add_medicine():
     quantity = int(input("Enter quantity: "))
     price = float(input("Enter price: "))
     added_date = date.today().strftime("%Y-%m-%d")
-    added_by = "Admin" 
+    added_by = "Manager" 
 
     cursor.execute("""
         INSERT INTO medicines (medicine_name, quantity, added_date, added_by, price) VALUES (%s, %s, %s, %s, %s)
