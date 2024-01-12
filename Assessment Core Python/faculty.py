@@ -12,8 +12,11 @@ def faculty_menu():
             roll_id = int(input("Enter the roll id to add marks: "))
             if roll_id in students:
                 subject = input("Enter the subject: ")
-                marks = int(input("Enter marks: "))
-
+                marks = input("Enter marks: ")
+                while not marks.isdigit():
+                    print("Please enter marks in digit only.")
+                    marks = input("Enter a Marks: ")
+                
                 if 'Subject' not in students[roll_id]:
                     students[roll_id]['Marks'] = {}
 
