@@ -6,13 +6,13 @@ def faculty_menu():
         print("\nFaculty Menu:")
         print("1. Add Marks to Student")
         print("2. View All Students")
-        faculty_choice = input("Enter choice by faculty: ")
+        faculty_choice = int(input("Enter choice by faculty: "))
 
         if faculty_choice == '1':
-            roll_id = input("Enter the roll id to add marks: ")
+            roll_id = int(input("Enter the roll id to add marks: "))
             if roll_id in students:
                 subject = input("Enter the subject: ")
-                marks = input("Enter marks: ")
+                marks = int(input("Enter marks: "))
 
                 if 'Subject' not in students[roll_id]:
                     students[roll_id]['Marks'] = {}

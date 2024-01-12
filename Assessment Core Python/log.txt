@@ -125,3 +125,7 @@
 2024-01-04 10:41:55:Counsellor logged in
 2024-01-04 10:46:58:Student Activity
 2024-01-04 10:47:03:Student With Roll id 1 spotted.
+2024-01-12 11:55:26:Counsellor logged in
+2024-01-12 12:02:14:Counsellor logged in
+2024-01-12 12:02:59:Added student with ID 1
+2024-01-12 12:03:09:Program Terminated

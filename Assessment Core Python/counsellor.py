@@ -17,7 +17,15 @@ def add_student(students, roll_id):
     for _ in range(subjects_num):
         subject = input("Enter subject name: ")
         marks = input("Enter Marks: ")
+        while not marks.isdigit():
+            print("Please enter marks in digit only.")
+            marks = input("Enter a Marks: ")
+            
         fees = input("Enter Fees: ")
+        while not fees.isdigit():
+            print("Please enter Fees in Digit only.")
+            fees = input("Enter a Fees: ")
+            
         faculty_name = input("Enter faculty name: ")
         subjects[subject] = {'marks': marks, 'fees': fees, 'faculty':faculty_name }
         
