@@ -1,0 +1,18 @@
+/* What are the external style sheets?
+
+they are CSS files that are linked to an HTML document to control the layout and appearance of the webpage. They contain style rules that 
+define how HTML elements should be displayed, such as font sizes, colors, margins, and positioning. External style sheets are linked to the 
+HTML document using the <link> tag in the <head> section of the HTML code.
+
+Example:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Welcome to my website!</h1>
+  <p>This is a paragraph of text.</p>
+</body>
+</html>

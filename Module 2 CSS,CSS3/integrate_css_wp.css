@@ -1,0 +1,12 @@
+/* What are the ways to integrate CSS as a web page? 
+
+In HTML, there are three ways to integrate CSS into a web page:
+
+Inline CSS: This is when CSS rules are applied directly to individual HTML elements using the "style" attribute. This is not a recommended
+approach as it can lead to code that is difficult to maintain and scale.
+
+Internal CSS: This is when CSS rules are defined within the "style" element in the "head" section of an HTML document. This approach is 
+useful when the CSS rules are specific to a single page.
+
+External CSS: This is when CSS rules are defined in an external .css file and linked to the HTML document using the "link" element in the 
+"head" section. This is the recommended approach as it promotes code reusability, separation of concerns, and easier maintenance.

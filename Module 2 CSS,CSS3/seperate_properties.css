@@ -1,0 +1,16 @@
+/*  Why should background and color be used as separate properties? 
+
+In CSS (Cascading Style Sheets background and color are separate properties that serve different purposes when it styling elements on a
+webpage.
+
+The background property is to set the background an element, which can include an image, color, or gradient. It can also be used to set 
+other background-related properties such as background-repeat, background-position, and background-size.
+
+On the other hand, the color property is used to set the text color of an element. This is important for ensuring that the text is legible
+against the background.
+
+While it would be possible to combine the background and color properties into a single property, keeping them separate provides greater 
+flexibility and control over the styling of an element. For example, a designer might want to use a light text color on a dark background 
+for headings, but a dark text color on a light background for body copy. By keeping these properties separate, they can be styled 
+independently of each other.
+

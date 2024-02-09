@@ -1,0 +1,21 @@
+/*  How to center block elements using CSS1?
+
+In CSS1, there is no direct way to center a block element within its parent container using only one CSS property. However, there are a few methods to achieve this using a combination of CSS properties. Here's an example of one such method:
+
+HTML:
+
+<div class="parent">
+  <div class="child">Centered block element</div>
+</div>
+
+CSS:
+
+.parent {
+  width: 100%;
+  text-align: center;
+}
+
+.child {
+  display: inline-block;
+  text-align: left;
+}

@@ -1,0 +1,17 @@
+/*
+----->> What do you understand by CSS opacity?
+
+In CSS, the opacity property is to set the transparency of an element. The property accepts values between 0.0fully transparent) and .0 
+(not transparent at all). An opacity value of 0. would make the element 50% see-through.
+
+When you apply the opacity property to element, it affects not only the element itself but also its child elements. This can sometimes
+make the text inside a transparent element hard to read. To avoid this, you can use RGBA color values instead, which allow you to set the opacity for the background color without affecting the child elements.
+
+Here's an example of how to use the opacity property in CSS:
+
+<style> img { opacity: 0.5; } </style> <body> <img src="klematis.jpg" width="150" height="113"> </body>
+In this example, the opacity property is set to 0.5 for all img elements. This means that all images on the page will be 50% transparent.
+
+It's worth noting that the opacity property is supported by all modern browsers, including Chrome, Firefox, Safari, and Edge. However, 
+if you need to support older browsers, you may want to consider using alternative methods to achieve transparency, such as RGBA color 
+values or the alpha filter in Internet Explorer.

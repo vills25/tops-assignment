@@ -1,0 +1,25 @@
+/* What is the use of the background-position property? 
+
+The background-position in CSS is used to specify the starting position of a background image within an element. The property takes one or
+two values, which can be specified as length values (e.g.10pxor50%), keywords (e.g. left, center, or right`), or a combination of both.
+
+In the given code, the background-position property is set to 50% 50%. This means that the background image will be centered both 
+horizontally and vertically within the element. The first value (50%) specifies the horizontal position, and the second value (also 50%) 
+specifies the vertical position.
+
+In the given code, background-position: 50% 50%;, the background image will be centered both horizontally and vertically within the element.
+The first value (50%) specifies the horizontal position, and the second value (50%) specifies the vertical position.
+
+So, the purpose of the background-position property in this code is to center the background image within the element.
+
+Here is an example of how this code might be used:
+
+.element {
+  width: 300px;
+  height: 200px;
+  background-image: url('path/to/image.jpg');
+  background-position: 50% 50%;
+}
+
+In this example, the background-image property is used to specify the image to be used as the background. The background-position property 
+is then used to center the background image within the .element div.

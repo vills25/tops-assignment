@@ -1,0 +1,18 @@
+/*  What are the media types allowed by CSS?
+
+Media types in CSS are used to specify the type of media device that a stylesheet is intended for. This allows you to apply different 
+stylesheets to different devices, such as screens, printers, or speech synthesizers.
+
+Here are some examples of media types that are allowed in CSS:
+
+all: Applies to all media types
+print: Applies to printers
+screen: Applies to computer screens
+speech: Applies to speech synthesizers
+aural: Deprecated; same as speech
+braille: Applies to braille tactile feedback devices
+embossed: Applies to paged braille printers
+handheld: Applies to handheld devices (such as PDAs or smartphones)
+projection: Applies to projected presentations, such as slideshows
+tty: Applies to teletype writers and other character-based terminals
+tv: Applies to television-type devices

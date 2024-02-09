@@ -1,0 +1,13 @@
+/* Which property controls the image scroll in the background?
+
+The background-attachment controls whether an element's background image scrolls with the rest of the page or remains fixed in place. 
+It can take one of two values:
+
+scroll: This is the default value, and it means that the background image will scroll along with the rest of the page as the user scrolls.
+fixed:  This value means that the background image will remain fixed in place, even as the user scrolls. This can create a parallax effect, 
+        where the background image appears to move more slowly than the foreground content.
+
+So, the background-attachment property is set to scroll, which means that the background image for the 
+affected element will scroll along with the rest of the page.
+
+

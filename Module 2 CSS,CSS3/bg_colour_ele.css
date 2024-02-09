@@ -1,0 +1,12 @@
+/*
+How can the background color of an element be changed? 
+
+<style>
+  p {
+    background-color: lightblue;
+  }
+</style>
+
+<p>This paragraph has a light blue background.</p>
+In this example, the background-color property is set to lightblue for all <p> elements, so the background of every paragraph in the HTML 
+document will be light blue.
