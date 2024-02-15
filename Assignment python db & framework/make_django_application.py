@@ -22,10 +22,7 @@ Step 3:
         name = models.CharField(max_length=100)
 
         def __str__(self):
-            return f"{self.id}: {self.name}"
-
-    class Admin(models.Model):
-        # Add relevant fields for the admin, such as name, email, etc.    
+            return f"{self.id}: {self.name}"   
 
 Step 4: Create database tables
     In your command prompt, run the following commands to create the necessary database tables:
@@ -37,10 +34,9 @@ Step 5: Register the models in the admin panel
     Open the myapp/admin.py file
 
     from django.contrib import admin
-    from .models import Product, Admin
+    from .models import Product
 
     admin.site.register(Product)
-    admin.site.register(Admin)
 
 Step 6: Start the development server
     
