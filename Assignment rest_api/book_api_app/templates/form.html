@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="{% url 'home' %}" method="post">
+        {% csrf_token %}
+        {{msg}}
+        <h3>Title</h3>
+        <input type="text" placeholder="Title" name="title"><br>
+        <h3>Author</h3>
+        <input type="text" placeholder="Author" name="author"><br>
+        <h3>Isbn</h3>
+        <input type="text" placeholder="Isbn" name="isbn"><br>
+        <h3>Publisher</h3>
+        <input type="text" placeholder="Publisher" name="publisher"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
