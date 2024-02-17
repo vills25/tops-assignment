@@ -24,7 +24,7 @@
 
 # Q.33 Write a Python script to concatenate following dictionaries to create a new one. 
 
-# Details = {
+# Details = {hello
 
 #             'Vishal':{
 #                 'mobile':['9033478555'],
