@@ -2,7 +2,7 @@
 
 '''
 In Django, URLs are used to map web requests to specific functions or views in your application. 
-Django URLs are defined in a separate module, usually named urls.py.
+Django URLs are defined in a separate module, usually named urls.py
 The function-based view and class-based view both can be used for creating Django URLs.
 
 Here's an example of how you might define some URL patterns using the function-based view:
