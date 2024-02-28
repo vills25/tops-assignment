@@ -1,11 +1,5 @@
-from collections import Counter
+tuplelist = (35,45.87,True," ",[ ],(32,66),{1,2},{ })
 
-d1 = {'a': 100, 'b': 200, 'c': 300}
-d2 = {'a': 300, 'b': 200, 'd': 400}
+tuplelist = [t for t in tuplelist if t]
 
-counter_d1 = Counter(d1)
-counter_d2 = Counter(d2)
-
-combined_counter = counter_d1 + counter_d2
-
-print(combined_counter)
+print(tuplelist)
