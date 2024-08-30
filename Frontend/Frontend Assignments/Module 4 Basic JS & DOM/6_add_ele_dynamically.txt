@@ -1,0 +1,5 @@
+6. Write the code for adding new elements dynamically.
+
+let newDiv = document.createElement("div");
+newDiv.textContent = "Hello World!";
+document.body.appendChild(newDiv);

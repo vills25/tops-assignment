@@ -1,0 +1,7 @@
+2. What is the use of the isNaN function?
+
+The isNaN() function determines whether a value is an illegal number (NaN). It returns true if the value is NaN, and false if it is not.
+
+Example:
+console.log(isNaN(123));  // false
+console.log(isNaN("hello"));  // true

@@ -1,0 +1,6 @@
+7. What is the difference between ViewState and SessionState?
+
+ViewState: It is used to retain the state of the web page between postbacks. It's specific to ASP.NET and stores data in a hidden field 
+           on the page.
+           
+SessionState: This is used to store user-specific data on the server side across multiple pages or requests within a web application.

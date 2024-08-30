@@ -1,0 +1,12 @@
+10. How to read and write a file using JavaScript?
+
+it can read files selected by the user:
+
+document.getElementById('input').addEventListener('change', function(event) {
+    let file = event.target.files[0];
+    let reader = new FileReader();
+    reader.onload = function(e) {
+        console.log(e.target.result);
+    };
+    reader.readAsText(file);
+});

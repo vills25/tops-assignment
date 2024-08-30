@@ -1,0 +1,5 @@
+8. What is the === operator?
+The === operator is a strict equality operator that checks if two values are equal in both type and value. It doesn't perform type conversion.
+
+console.log(1 === '1');  // false
+console.log(1 === 1);    // true

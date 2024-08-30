@@ -1,0 +1,6 @@
+5. What are undeclared and undefined variables?
+
+Undeclared Variables: These are variables that have been used in code without being declared with the var, let, or const keywords. 
+                      Using them can cause errors in strict mode.
+                      
+Undefined Variables: These are variables that have been declared but have not been assigned a value. They default to undefined.

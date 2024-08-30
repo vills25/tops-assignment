@@ -1,0 +1,4 @@
+15. What is the use of void (0)?
+The expression void(0) is often used to prevent the default action of an anchor tag <a> by providing it as the value for the href attribute. It returns undefined and ensures that the link does not navigate anywhere.
+
+<a href="javascript:void(0)">Click me</a>

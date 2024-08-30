@@ -1,0 +1,3 @@
+4. Which company developed JavaScript?
+JavaScript was developed by Netscape Communications Corporation. It was initially created by Brendan Eich in 1995 while he was working 
+at Netscape.

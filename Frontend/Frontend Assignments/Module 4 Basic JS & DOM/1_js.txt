@@ -1,0 +1,20 @@
+Q.1 What is JavaScript?
+   JavaScript is a high-level programming language commonly used for web development. It enables interactive web pages and is an essential 
+   part of web applications. JavaScript code can be embedded directly into HTML pages and executed by web browsers. To use JavaScript, 
+   you can include it within <script> tags in an HTML document or link to an external JavaScript file using the <script> tag's src 
+   attribute.
+   Example:
+   
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+   </head>
+   <body>
+      <script>
+      alert("Hello World!");
+      </script>
+   </body>
+   </html>

@@ -1,0 +1,5 @@
+16. How can a page be forced to load another page in JavaScript?
+
+We can use window.location.href to redirect the user to a different page:
+
+window.location.href = "http://www.example.com";

@@ -1,0 +1,7 @@
+14. What are all the types of Pop-up boxes available in JavaScript?
+
+JavaScript provides three types of pop-up boxes:
+
+alert(): Displays a message to the user.
+confirm(): Displays a message with OK and Cancel options.
+prompt(): Displays a message prompting the user to input some text.

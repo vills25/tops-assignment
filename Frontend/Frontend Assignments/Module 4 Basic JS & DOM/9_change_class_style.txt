@@ -1,0 +1,8 @@
+9. How can the style/class of an element be changed?
+You can change the style or class of an element using JavaScript as follows:
+
+// Change style
+document.getElementById("myElement").style.color = "red";
+
+// Change class
+document.getElementById("myElement").className = "newClassName";

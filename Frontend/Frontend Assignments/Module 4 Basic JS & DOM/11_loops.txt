@@ -1,0 +1,9 @@
+11. What are all the looping structures in JavaScript?
+
+JavaScript supports the following looping structures:
+
+for loop
+while loop
+do...while loop
+for...in loop (used to iterate over object properties)
+for...of loop (used to iterate over iterable objects like arrays)

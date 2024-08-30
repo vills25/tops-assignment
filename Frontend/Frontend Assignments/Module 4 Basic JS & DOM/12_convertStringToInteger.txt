@@ -1,0 +1,6 @@
+12. How can you convert the string of any base to an integer in JavaScript?
+You can use the parseInt() function with a radix (base) parameter:
+
+let binaryString = "1010";
+let number = parseInt(binaryString, 2);  // Converts from base 2 (binary) to integer
+console.log(number);  // Output: 10

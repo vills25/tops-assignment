@@ -1,0 +1,6 @@
+13. What is the function of the delete operator?
+The delete operator removes a property from an object. If the property exists, delete will remove it and return true. If it doesn't exist, it returns true without any effect.
+
+let obj = {name: "John", age: 30};
+delete obj.age;  // Removes the 'age' property
+console.log(obj);  // {name: "John"}
