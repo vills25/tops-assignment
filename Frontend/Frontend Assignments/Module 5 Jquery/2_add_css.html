@@ -1,0 +1,53 @@
+2. How to Apply CSS Using jQuery, How to Add Class and Remove Class in jQuery, jQuery Animation?
+
+Applying CSS using jQuery:
+You can apply CSS styles to elements using the .css() method in jQuery. This method can set a single property or multiple properties at once.
+
+// Setting a single CSS property
+$('p').css('color', 'red');
+
+// Setting multiple CSS properties
+$('p').css({
+    'color': 'red',
+    'font-size': '20px',
+    'background-color': 'yellow'
+});
+
+Adding and Removing Classes in jQuery:
+jQuery provides .addClass() and .removeClass() methods to add or remove classes from elements.
+
+Add Class:
+$('p').addClass('highlight');
+
+Remove Class:
+$('p').removeClass('highlight');
+
+Toggle Class: (Optional) You can also use .toggleClass() to add a class if it doesn't exist or remove it if it does.
+$('p').toggleClass('highlight');
+
+jQuery Animation:
+jQuery provides several methods for animating elements, such as .animate(), .fadeIn(), .fadeOut(), .slideUp(), .slideDown(), etc.
+
+Basic Animation with .animate():
+
+$('div').animate({
+    width: '300px',
+    height: '300px',
+    opacity: 0.5
+}, 1000);  // 1000 milliseconds = 1 second
+
+Fade In and Fade Out:
+
+// Fade In
+$('div').fadeIn(1000);  // 1 second
+
+// Fade Out
+$('div').fadeOut(1000);
+
+Slide Up and Slide Down:
+
+// Slide Up
+$('div').slideUp(1000);  // 1 second
+
+// Slide Down
+$('div').slideDown(1000);

@@ -1,0 +1,31 @@
+<!-- 4. Canvas and SVG Tags
+
+Canvas:
+The <canvas> element is used to draw graphics, like shapes, images, and text, using JavaScript. It’s a pixel-based drawing area, meaning it’s great for dynamic, script-driven graphics but doesn’t scale well like SVG.
+
+Example of using the <canvas> tag: -->
+
+<canvas id="myCanvas" width="500" height="400"></canvas>
+
+<script>
+  let canvas = document.getElementById("myCanvas");
+  let ctx = canvas.getContext("2d");
+  ctx.fillStyle = "blue";
+  ctx.fillRect(20, 20, 150, 100);
+</script>
+
+<!-- SVG (Scalable Vector Graphics):
+The <svg> tag is used to create vector-based graphics directly in the HTML. Unlike <canvas>, SVG graphics are scalable and don’t lose quality when resized.
+
+Example of using the <svg> tag: -->
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+</svg>
+
+<!-- Scalable: SVG images are resolution-independent and can scale without losing quality.
+Scriptable: You can manipulate SVG elements with JavaScript and CSS.
+
+Both <canvas> and <svg> have their use cases: <canvas> is suitable for complex, dynamic, or animated graphics, while <svg> is better
+for static, scalable graphics. -->
+

@@ -1,0 +1,58 @@
+<!-- 3. How to create a slider with animation?
+Creating a slider with animation using jQuery typically involves setting up a sequence of images or content blocks that slide into view 
+one at a time. Below is a basic example of how to create a simple slider with animation. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple jQuery Slider</title>
+    <style>
+        #slider {
+            width: 500px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+        .slides {
+            display: flex;
+            width: 2000px; 
+            transition: transform 0.5s ease-in-out;
+        }
+        .slide {
+            width: 500px;
+            height: 300px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div id="slider">
+    <div class="slides">
+        <div class="slide" style="background-color: red;"></div>
+        <div class="slide" style="background-color: blue;"></div>
+        <div class="slide" style="background-color: green;"></div>
+        <div class="slide" style="background-color: yellow;"></div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+        let currentSlide = 0;
+        const slides = $('.slides');
+        const slideCount = $('.slide').length;
+        const slideWidth = $('.slide').width();
+
+        function showNextSlide() {
+            currentSlide = (currentSlide + 1) % slideCount;
+            slides.css('transform', 'translateX(' + (-currentSlide * slideWidth) + 'px)');
+        }
+
+        setInterval(showNextSlide, 2000);
+    });
+</script>
+
+</body>
+</html>
