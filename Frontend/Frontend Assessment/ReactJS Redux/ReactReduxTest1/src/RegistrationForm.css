@@ -1,0 +1,123 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+form {
+  width: 500px;
+  padding: 40px;
+  border-radius: 12px;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  text-align: center;
+  color: #222;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #000000;
+  text-align: center;
+}
+
+p1 {
+  color: #000000;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #474545;
+}
+
+input {
+  background-color: white;
+  color: #000000;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #28302a;
+  outline: none;
+  box-shadow: 0 0 5px rgba(31, 41, 34, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #218838, #1e7e34);
+  transform: scale(1.05);
+}
+
+.error {
+  color: red;
+  font-size: 0.85em;
+  margin-top: -8px;
+  margin-bottom: 12px;
+}
+
+.registered-students {
+  width: 100%;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #000000;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.registered-students h3 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.student-list {
+  color: #ffffff;
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-list li {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: rgb(201, 201, 201);
+  margin-bottom: 10px;
+  background: #77b3ef;
+  transition: all 0.3s ease;
+}
+
+.student-list li:hover {
+  background: #ffffff;
+  transform: scale(1.02);
+}
